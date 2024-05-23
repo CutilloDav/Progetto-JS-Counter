@@ -1,0 +1,71 @@
+*{
+    font-family: 'Inter', sans-serif, Arial;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    max-width: 100%;
+    height: 700px;
+}
+.contenitore {
+    display: flex;
+    position:absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 600px;
+    margin:150px 0px 0px 460px;
+    border-radius: 100px;
+    background-color: #d1b500;
+    box-shadow: 0px 3px 10px black;
+    
+
+}
+.contenitore h1 {
+    margin: 30px;
+    background-color: #d1b500;
+    font-size: 40px;
+}
+.counter {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    background-color: #d1b500;
+}
+.primoBottone,
+.secondoBottone,
+.terzoBottone {
+    height: 50px;
+    width: 120px;
+    border-radius: 40px;
+    font-size: 30px;
+    background-color: #bababa;
+    border: 1px solid black;
+    box-shadow: 0px 1px 4px black;
+    color: white;
+    margin: 20px;
+}
+.primoBottone:active,
+.secondoBottone:active,
+.terzoBottone:active {
+    background-color: rgb(112, 112, 115);
+}
+.terzoBottone{
+    font-size: 20px;
+    padding: 0 25px;
+    margin-top: 0px;
+    
+}
+.Num{
+    height: 50px;
+    min-width: 120px;
+    margin-top: 20px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #d1b500;
+}
