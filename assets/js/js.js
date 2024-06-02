@@ -40,23 +40,6 @@ resetPulsante.setAttribute('class','terzoBottone');
 resetPulsante.textContent= 'reset';
 
 
-
-
-
-
-
- /*   body.innerHTML= 
-   "<div class='contenitore'>"+
-       "<h1>COUNTER</h1>"+
-       "<div id='contatore' class='Num'>0</div>"+
-               "<div class='counter'>"+
-                   "<input type='button' value='+' id='incremento' class='primoBottone'>"+
-                   "<input type='button' value='-' id='decremento' class='secondoBottone'>"+
-               "</div>"+
-        "<button id='reset' class='terzoBottone'>reset</button>"+
-   "</div>";
-    */
-
    let numero = 0  ;
 
    let contatore = document.getElementById('contatore');
